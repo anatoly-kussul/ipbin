@@ -43,8 +43,8 @@ If `-b` is specified, output is written in a compact binary format:
 ### Text Output Formats
 - `1` (default): subnets+ips — single IPs as IPs, others as subnets
 - `2`: ranges+ips — single IPs as IPs, others as start-end
-- `3`: subnets — subnets only
-- `4`: ranges — ranges as start-end only
+- `3`: subnets — everything in subnet format
+- `4`: ranges — everything in ranges format as start-end
 
 ## Input Format
 - Text input: one IP, subnet, or range per line (e.g., `1.2.3.4`, `10.0.0.0/8`, `192.168.1.1-192.168.1.255`)
